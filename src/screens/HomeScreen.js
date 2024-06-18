@@ -16,7 +16,7 @@ export default function HomeScreen() {
   useEffect(() => {
     getCategories();
     getRecipes();
-  }, [activeCategory]);
+  }, []);
 
   const handleChangeCategory = (category) => {
     getRecipes(category);

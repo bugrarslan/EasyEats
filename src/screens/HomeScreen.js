@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, TextInput, Image } from 'react-native'
+import { View, Text, ScrollView, TextInput } from 'react-native'
 import React, { useState, useEffect } from 'react'
 import { StatusBar } from 'expo-status-bar'
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
@@ -6,6 +6,8 @@ import {BellIcon, MagnifyingGlassIcon} from 'react-native-heroicons/outline'
 import Categories from '../components/Categories';
 import axios from 'axios';
 import Recipes from '../components/Recipes';
+import { Image } from 'expo-image';
+
 
 export default function HomeScreen() {
 

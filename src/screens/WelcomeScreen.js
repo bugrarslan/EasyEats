@@ -1,9 +1,10 @@
-import { View, Text, Image } from 'react-native'
+import { View, Text } from 'react-native'
 import React, { useEffect } from 'react'
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 import { StatusBar } from 'expo-status-bar';
 import Animated, {useSharedValue, withSpring} from 'react-native-reanimated';
 import { useNavigation } from '@react-navigation/native';
+import { Image } from 'expo-image';
 
 export default function WelcomeScreen() {
 
@@ -31,8 +32,8 @@ export default function WelcomeScreen() {
       <Animated.View className="bg-white/20 rounded-full" style={{padding:ring2padding}}>
         <Animated.View className="bg-white/20 rounded-full" style={{padding:ring1padding}}>
           <Image 
-          source={require('../assets/welcome.png')} 
-          style={{width:hp(20), height:hp(20)}}
+          	source={require('../assets/welcome.png')} 
+          	style={{width:hp(20), height:hp(20)}}
           />
         </Animated.View>
       </Animated.View>

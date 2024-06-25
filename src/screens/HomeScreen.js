@@ -62,8 +62,10 @@ export default function HomeScreen() {
         {/* avatar and bell icon */}
         <View className="mx-4 flex-row justify-between items-center mb-2">
           <Image 
-          source={require('../assets/avatar.png')} 
-          style={{height:hp(5), width:hp(5.5)}} 
+              source={require('../assets/avatar.png')}
+              style={{height:hp(5), width:hp(5.5)}}
+              contentFit="contain"
+              transition={1000}
           />
           <BellIcon size={hp(4)} color="gray"/>
         </View>

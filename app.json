@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "foodRecipeApp",
-    "slug": "foodRecipeApp",
+    "name": "EasyEats",
+    "slug": "EasyEats",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,9 +16,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bugrarslan.EasyEats"
     },
     "web": {
       "favicon": "./assets/favicon.png"
